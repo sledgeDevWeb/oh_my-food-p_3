@@ -455,13 +455,13 @@
                                                 overflow-x: hidden;
                                                 scroll-behavior: smooth;
                                             }
-                                            .location p {
+                                            /* .location p {
                                                 font-size: 14px;
                                             }
                                             .location i {
                                                 width: 12px;
                                                 height: 16px;
-                                            }
+                                            } */
                                             .home {
                                                 width: 100%;
                                                 height: 280px;
