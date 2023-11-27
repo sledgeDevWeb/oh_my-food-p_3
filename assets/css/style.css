@@ -68,7 +68,7 @@
                                         }
                                         
                                         .location p {
-                                            width: 109px;
+                                            /* width: 109px; */
                                             height: 19px;
                                             font-size: 16px;
                                             font-weight: 500;
@@ -462,10 +462,6 @@
                                                 width: 12px;
                                                 height: 16px;
                                             } */
-                                            .home {
-                                                width: 100%;
-                                                height: 280px;
-                                            }
                                             .home-info {
                                                 display: flex;
                                                 align-items: center;
