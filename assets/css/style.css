@@ -69,7 +69,7 @@
                                         
                                         .location p {
                                             /* width: 109px; */
-                                            height: 19px;
+                                            /* height: 19px; */
                                             font-size: 16px;
                                             font-weight: 500;
                                             line-height: 19px;
@@ -455,13 +455,10 @@
                                                 overflow-x: hidden;
                                                 scroll-behavior: smooth;
                                             }
-                                            /* .location p {
-                                                font-size: 14px;
-                                            }
                                             .location i {
                                                 width: 12px;
                                                 height: 16px;
-                                            } */
+                                            }
                                             .home-info {
                                                 display: flex;
                                                 align-items: center;
