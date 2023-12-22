@@ -606,6 +606,14 @@ footer {
     font-size: 15px;
   }
 
+  .footer_text a {
+   
+    gap: 0.8rem;
+   
+    font-size: 14px;
+  
+}
+
   footer {
     padding-left: 1%;
     padding-right: 2%;
