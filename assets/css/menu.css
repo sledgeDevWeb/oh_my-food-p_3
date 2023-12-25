@@ -91,14 +91,26 @@
     }
 
     @media screen and (max-width: 480px) {
+        .container {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            padding: 0 auto;
+           
+          }
         .main__content__h1__title {
             font-size: 1.22rem;
-           
         }
 
         .main__content__h1 {
             padding: 20px 10px;
         }
+
+        .main__content__entree__menu {
+            width: 95%;
+          }
+
+        
         
     }
 
@@ -338,13 +350,13 @@
         .main__content__entree__menu__check {
             width: 6%;
         }
+        .main_content_child {
+            width: 95%;
+          }
         }
   
     @media screen and (max-width: 480px) {
-        .main_content_child {
-            width: 95%;
-        
-          }
+      
 
           .main__content__entree__menu {
             
