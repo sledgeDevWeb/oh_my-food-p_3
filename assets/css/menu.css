@@ -356,12 +356,12 @@
         }
   
     @media screen and (max-width: 480px) {
-      
+        .main_content_child {
+            width: 100%;
+          }
 
           .main__content__entree__menu {
-            
             width: 90%;
-          
           }
 
         }
