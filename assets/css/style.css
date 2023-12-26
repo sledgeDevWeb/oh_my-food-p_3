@@ -11,45 +11,76 @@
   height: auto;
   margin: 0 auto;
   padding: 0 auto;
+
  
 }
 
-.loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color:rgb(65, 64, 63);
+
+/*Loading page*/
+
+header .location,
+main,
+footer {
+    animation: hero ease-in-out 5s , 3s backwards;
   
+}
+    @keyframes hero {
+        0% {
+          opacity: 0;
+            
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 
+.loader {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    animation: loader 3s  forwards;
+   
 }
 
-.loader--hidden{
-
-  display: none;
-}
 
 .loader::after{
   content: "";
   width: 75px;
   height: 75px;
   border: 16px solid #f3f3f3;
-  border-top: 16px solid blue;
+  border-top: 16px solid #9356DC;
   border-bottom: 16px solid blue;
   border-radius: 50%;
-  animation: loading 0.75s ease infinite;
  
+  animation: loading 3s  ;
+ 
+  
+  
 }
+    @keyframes loader {
+        0% {
+            opacity: 0;
+        }
+        60% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
 
-@keyframes loading {
-   from { transform: rotate(0turn) }
-  to { transform: rotate(1turn) }
-}
-
+    @keyframes loading {
+      from { transform: rotate(0turn) }
+     to { transform: rotate(1turn) }
+   }
 
 
 a {
