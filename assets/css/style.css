@@ -459,6 +459,18 @@ article h2 {
   padding: 6px;
   text-align: center;
 }
+.discount1 {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  border: 1px;
+  color: #008766;
+  background-color: #99e2d0;
+  width: 90px;
+  height: 29px;
+  padding: 6px;
+  text-align: center;
+}
 
 /* Footer start */
 
