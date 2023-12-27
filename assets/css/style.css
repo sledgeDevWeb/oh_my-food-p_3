@@ -10,7 +10,7 @@
   max-width: 1440px;
   height: auto;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0 ;
 
  
 }
@@ -469,7 +469,7 @@ footer {
   background: #353535;
   /* max-width: 1440px; */
   height: 114px;
-  padding: 30px, 25px, 30px, 25px;
+  padding: 30px 25px 30px 25px;
 }
 
 .logoFooter {
