@@ -8,6 +8,8 @@
 .container {
   width: 100%;
   min-width: 375px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
   height: auto;
   margin: 0 auto;
   padding: 0;
@@ -194,7 +196,7 @@ header .logo {
   width: 100%;
   height: 20px;
   color: #000000;
-  min-width: 275px;
+  max-width: 275px;
 }
 
 
@@ -307,6 +309,7 @@ section .section-fontionnement {
 
 .main-fontionnement:hover {
   transform: scale(1.05);
+  
 }
 
 .fontionnement-textIcons {
@@ -565,6 +568,10 @@ footer {
     font-size: 40px;
     line-height: 46.88px;
     height: 30px;
+    width: 100%;
+    max-width: 665px;
+    height: 30px;
+    color: #000000;
   }
 
   .heros_text {
@@ -572,46 +579,21 @@ footer {
   }
 
   /*fonction */
-
-  .section-fontionnement {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: #ffffff;
-  }
-
-  .section-fontionnement h2 {
-    width: 94%;
-    height: 31px;
-    padding: 40px 0px;
-    font-family: Roboto;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-
-  .fontionnement {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1re;
-    ;
-    width: 100%;
-    flex-direction: row;
-  }
-
-  .main-fontionnement {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 26%;
-    height: 72px;
-
-  }
+    .section-fontionnement h2 {
+      width: 92%;
+    }
+    
+    .fontionnement {
+      flex-direction: row;
+      gap: 2rem;
+      width: 100%;
+      padding: 0px 20px;
+    }
+    
+    .main-fontionnement {
+      width: 100%;
+      min-width: 215px;
+    }
 
   /* restaurant */
 
@@ -652,7 +634,6 @@ footer {
     align-items: center;
     width: 100%;
     background: #353535;
-    /* max-width: 1440px; */
     height: 114px;
     padding: 30px 25px 30px 25px;
   }
@@ -675,7 +656,7 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    gap: 8rem;
+    gap: 1.5rem;
   }
 
   .footer_text {
@@ -692,142 +673,27 @@ footer {
     gap: 2rem;
   }
 
+}
   @media screen and (min-width: 1024px) {
-
     /*fonction */
-
-    .section-fontionnement {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background-color: #ffffff;
-    }
-
-    .section-fontionnement h2 {
-      width: 90%;
-      height: 31px;
-      padding: 40px 0px;
-      font-family: Roboto;
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 28px;
-      letter-spacing: 0em;
-      text-align: left;
-    }
-
+    
     .fontionnement {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      gap: 1rem;
-
-      width: 90%;
-      flex-direction: row;
+      width: 95%;
     }
-
+    
     .main-fontionnement {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 26%;
-      height: 72px;
-
-    }
-
-    /* restaurant */
-
-    article {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: auto;
-      background: #F6F6F6;
-      margin-top: 45px;
-      padding-bottom: 60px;
-    }
-
-    .main-restaurant {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      gap: 4.4rem;
-      padding: 0.8% 3%;
-    }
-
-    .restaurant-textIcon {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      width: 45%;
-      height: 268px;
+      min-width: 120px;
     }
 
     /* footer */
 
-    footer {
-      display: flex;
-      align-items: center;
-      width: 100%;
-      background: #353535;
-      height: 114px;
-      padding: 30px 25px 30px 25px;
-    }
-
-    .logoFooter {
-      width: 137px;
-      height: 27px;
-      font-family: shrikhand;
-      font-size: 18px;
-      font-style: italic;
-      font-weight: 400;
-      line-height: 26px;
-      letter-spacing: 0em;
-      color: #ffffff;
-      padding-right: 8rem;
-    }
-
     .main_footer {
-      width: 100%;
-      display: flex;
       flex-direction: row-reverse;
-      align-items: center;
       gap: 8rem;
     }
 
     .footer_text {
-      display: flex;
-      justify-content: flex-end;
       flex-direction: row;
-      gap: 0.5rem;
-      color: #ffffff;
     }
-
-    .footer_text {
-      width: 100%;
-      display: flex;
-      gap: 2rem;
-    }
-
-    .footer_text a {
-      text-decoration: none;
-      color: #ffffff;
-      display: flex;
-      gap: 1rem;
-      height: 19px;
-      font-family: Roboto;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 19px;
-      letter-spacing: 0em;
-      text-align: left;
-    }
-
-
 
   }
