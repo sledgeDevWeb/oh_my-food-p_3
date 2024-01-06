@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap");
 
+
+/* @-moz-document url-prefix() {
+  html,body{overflow: hidden !important;}
+} */
+
 * {
 
   box-sizing: border-box;
@@ -32,7 +37,6 @@ footer {
 @keyframes hero {
   0% {
     opacity: 0;
-
   }
 
   100% {
@@ -53,7 +57,6 @@ footer {
   justify-content: center;
   margin: 0 auto;
   animation: loader 3s forwards;
-
 }
 
 
@@ -65,11 +68,7 @@ footer {
   border-top: 16px solid #9356DC;
   border-bottom: 16px solid blue;
   border-radius: 50%;
-
   animation: loading 3s;
-
-
-
 }
 
 @keyframes loader {
@@ -98,9 +97,6 @@ footer {
 
 /*Loading page end*/
 
-
-
-
 /* header start*/
 
 header {
@@ -108,8 +104,6 @@ header {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-
-
 }
 
 header .logo {
@@ -117,7 +111,6 @@ header .logo {
   justify-content: center;
   text-align: center;
   gap: 4rem;
-
   width: 100%;
 }
 
@@ -145,7 +138,6 @@ header .logo {
   text-align: center;
   gap: 0.8rem;
   height: 50px;
-
 }
 
 .location i {
@@ -155,7 +147,6 @@ header .logo {
 }
 
 .location p {
-
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
@@ -279,7 +270,6 @@ section .section-fontionnement {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 .fontionnement {
@@ -288,9 +278,7 @@ section .section-fontionnement {
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  ;
   width: 80%;
-
 }
 
 .main-fontionnement {
@@ -304,12 +292,10 @@ section .section-fontionnement {
   border-radius: 20px;
   box-shadow: 0px 4px 15px 0px #00000026;
   background-color: #f6f6f6;
-
 }
 
 .main-fontionnement:hover {
   transform: scale(1.05);
-  
 }
 
 .fontionnement-textIcons {
@@ -339,7 +325,6 @@ section .section-fontionnement {
   letter-spacing: 0em;
   text-align: left;
   color: #000000;
-
 }
 
 .function__list__element__box__circle {
@@ -373,6 +358,7 @@ article {
 article h2 {
   width: 90%;
   font-size: 24px;
+  font-family: Roboto;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: 0em;
@@ -430,7 +416,6 @@ article h2 {
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 .blockOne p {
@@ -514,7 +499,6 @@ footer {
   line-height: 26.24px;
   letter-spacing: 0em;
   color: #ffffff;
-
 }
 
 .main_footer {
@@ -522,7 +506,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .footer_text {
