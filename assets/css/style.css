@@ -25,7 +25,7 @@ a {
 
 /*Loading page*/
 
-/* header .location,
+header .location,
 main,
 footer {
   animation: hero ease-in-out 5s, 3s backwards;
@@ -91,7 +91,7 @@ footer {
   to {
     transform: rotate(1turn)
   }
-} */
+}
 
 /*Loading page end*/
 

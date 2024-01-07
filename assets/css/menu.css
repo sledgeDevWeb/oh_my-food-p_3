@@ -254,7 +254,7 @@
         transition: 0.3s;
     }
       .main__content__entree__menu:hover .main__content__entree__menu__detail__price  {
-        padding-left: -12px;
+        padding-left: 12px;
         width: 10%;
     } 
     
@@ -327,7 +327,7 @@
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
         background: linear-gradient(#FF79DA, #9356DC);
         transition: transform 300ms, background 300ms 50ms;
-        box-shadow: 300ms 50ms;
+        
         margin: 30px 0px;
     }
 
