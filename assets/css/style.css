@@ -10,7 +10,7 @@
 
 .container {
   width: 100%;
-  min-width: 375px;
+
   overflow-x: hidden;
   scroll-behavior: smooth;
   height: auto;

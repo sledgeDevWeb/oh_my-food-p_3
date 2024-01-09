@@ -252,9 +252,10 @@
         font-weight: 700;
         font-size: 0.875rem;
         transition: 0.3s;
+        padding-right: 10px;
     }
       .main__content__entree__menu:hover .main__content__entree__menu__detail__price  {
-        padding-left: 12px;
+        padding-right: 12px;
         width: 10%;
     } 
     
